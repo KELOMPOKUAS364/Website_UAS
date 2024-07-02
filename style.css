@@ -1,0 +1,50 @@
+body {
+  background-color: rgb(229,175,229);
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-image: url('amikom.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 100px;
+  text-align: center;
+  color: black ;
+  font-size: large;
+}
+
+nav ul {
+  background-color: whitesmoke;
+  list-style: none;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: #337ab7;
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+  padding: 20px;
+}
+
+section {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border: 10px solid #ffda60;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}

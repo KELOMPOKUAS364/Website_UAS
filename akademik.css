@@ -1,0 +1,118 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #7A288A; /* Change the background color to purple */
+}
+
+nav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  display: block;
+  color: white;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: #111;
+}
+.wrap{
+  display: flex;
+  animation: slide 20s infinite;
+}
+.wrap img {
+  width: 50%;
+}
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-100%);
+  }
+  50% {
+    transform: translateX(-200%);
+  }
+  75% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+header {
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  color: #7A288A; /* Change the text color to purple */
+}
+ 
+main {
+  padding: 20px;
+}
+
+main section {
+  margin-bottom: 20px;
+}
+
+main h2 {
+  color: #333;
+}
+
+main ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+main li {
+  margin-bottom: 5px;
+}
+
+section{
+  background-color: #f4f4f4;
+  padding: 20px;
+  border: 10px solid #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 0 10px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+footer {
+  padding: 20px; 
+  background-color:#342266;
+  color: #fff;
+}
+footer {
+  border-top: 1px solid #ccc;
+  padding: 20px; 
+  background-color: #342266;
+  color: #fff; 
+}
+footer {
+  text-align: center; 
+  padding: 20px;
+  background-color: #342266; 
+  color: #fff; 
+}
+footer {
+  padding: 20px; 
+  background-color: #342266;
+  color: #fff; 
+}
